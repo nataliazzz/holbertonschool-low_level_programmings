@@ -1,21 +1,11 @@
-#include "main.h"
-
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
-
 void print_alphabet(void)
 {
-	char alpha;
+	char c;
 
-	alpha = 'a';
-
-	while (alpha <= 'z')
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		_putchar(alpha);
-		alpha++;
+		_putchar(c);
 	}
+
 	_putchar('\n');
 }
