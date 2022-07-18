@@ -1,4 +1,4 @@
-# Makefile for executable 'school'. All rules builds the executable
+# Makefile for executable 'school'. The 'all' rules builds the executable
 # No variables.
 all: main.c school.c
 	gcc main.c school.c -o school
